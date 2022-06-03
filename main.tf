@@ -8,7 +8,7 @@ resource "azurerm_resource_group" "rg" {
   
   tags  = {
       Environment = "TF v2"
-      Team        = var.tag_rg 
+      Team        = config.tag_rg 
   }
 }
 
