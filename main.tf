@@ -9,12 +9,12 @@ terraform {
     }
   }
 
-  cloud {
+  /*cloud {
     organization  = "yury-dev"
     workspaces {
       name  = "terraform-lab"
     }
-  }
+  }*/
 }
 
 provider "azurerm" {
